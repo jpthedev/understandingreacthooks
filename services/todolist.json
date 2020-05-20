@@ -1,0 +1,64 @@
+{
+    "todoList": [
+        {
+            "title": "Buy pair of shoes",
+            "description": "Buy new pair of nike shoes in blue colour",
+            "userId": 36,
+            "done": false
+        },
+        {
+            "title": "Plan for the movie",
+            "description": "book the tickets for joker movie",
+            "userId": 31,
+            "done": false
+        },
+        {
+            "title": "book bus ticket",
+            "description": "book the bus ticket from chennai to baglore for diwali",
+            "userId": 39,
+            "done": false
+        },
+        {
+            "title": "tour plan",
+            "description": "arrange the winter vacation trip to north east",
+            "userId": 36,
+            "done": false
+        },
+        {
+            "title": "learn new",
+            "description": "try to learn somehting new",
+            "userId": 36,
+            "done": true
+        },
+        {
+            "title": "go to gym",
+            "description": "join thr nearest gym for the cardio",
+            "userId": 31,
+            "done": true
+        },
+        {
+            "title": "learn new",
+            "description": "try to learn somehting new",
+            "userId": 16,
+            "done": false
+        },
+        {
+            "title": "go to gym",
+            "description": "join thr nearest gym for the cardio",
+            "userId": 26,
+            "done": false
+        },
+        {
+            "title": "eat pizza",
+            "description": "try to learn somehting new",
+            "userId": 16,
+            "done": true
+        },
+        {
+            "title": "visit malasiya",
+            "description": "join thr nearest gym for the cardio",
+            "userId": 26,
+            "done": true
+        }
+    ]
+}

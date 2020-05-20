@@ -1,0 +1,63 @@
+.taskNav {
+    width: 80%;
+    /* background: #4f6367; */
+    margin: 0;
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    margin: 0 auto;
+    border-bottom: 4px solid #a3445b;
+}
+
+.taskNav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.taskNav li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 14px 24px 10px 24px;
+    color: #471323;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+}
+
+.taskNav li a.active {
+    /* transform: skew(20deg); */
+    background:#a3445b;
+    color: #eef5db;
+    border-radius: 5px 5px 0 0;
+}
+
+.taskNav li a.active:before {
+    /* width: 0;
+    height: 0;
+    border-top: 50px solid #a3445b;;
+    border-left: 50px solid transparent;
+    position: absolute;
+    left: -50px;
+    top: 0;
+    content: '';
+    transform: skew(-20deg) */
+}
+
+.taskNav li a.active:after {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #a3445b;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -14px;
+    content: '';
+}
